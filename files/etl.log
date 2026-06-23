@@ -1,0 +1,16 @@
+2026-06-23 19:09:02,894 [INFO] === ETL pipeline starting ===
+2026-06-23 19:09:03,012 [INFO] Connected to PostgreSQL
+2026-06-23 19:09:03,012 [INFO] No CSV provided — attempting Hugging Face fetch
+2026-06-23 19:09:03,012 [INFO] Fetching Hugging Face Open LLM Leaderboard...
+2026-06-23 19:09:03,013 [WARNING]   Could not fetch HF leaderboard: Unable to find a usable engine; tried using: 'pyarrow', 'fastparquet'.
+A suitable version of pyarrow or fastparquet is required for parquet support.
+Trying to import the above resulted in these errors:
+ - `Import pyarrow` failed. pyarrow is required for parquet support. Use pip or conda to install the pyarrow package.
+ - `Import fastparquet` failed. fastparquet is required for parquet support. Use pip or conda to install the fastparquet package.
+2026-06-23 19:09:03,013 [WARNING] No data extracted. Exiting.
+2026-06-23 19:09:59,795 [INFO] === ETL pipeline starting ===
+2026-06-23 19:09:59,845 [INFO] Connected to PostgreSQL
+2026-06-23 19:09:59,846 [INFO] No CSV provided — attempting Hugging Face fetch
+2026-06-23 19:09:59,846 [INFO] Fetching Hugging Face Open LLM Leaderboard...
+2026-06-23 19:10:00,451 [WARNING]   Could not fetch HF leaderboard: HTTP Error 404: Not Found
+2026-06-23 19:10:00,458 [WARNING] No data extracted. Exiting.
